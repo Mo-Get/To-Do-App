@@ -1,0 +1,124 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+}
+
+.mainPage{
+  margin-left: 2rem;
+}
+.todo-header{
+  color: red;
+  margin-left: 3rem;
+
+}
+
+.toDoSpace{
+  margin-left: 80px;
+  border-radius: 20px;
+  height: 25px;
+  width: 40%;
+  border-style: none;
+  background-color: papayawhip;
+  padding: 10px;
+  background-color:rgb(239, 239, 236);
+  color:rgb(23, 8, 8);
+  font-weight: bold;
+}
+
+.addTask{
+  margin-left: 10px;
+  height: 45px;
+  width: 5em;
+  border-style: none;
+  background-color: rgb(68, 151, 126);
+  color: rgb(10, 9, 9);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight:bold;
+}
+
+.toDoTaskList{
+  color: rgb(255, 255, 255);
+  font-style:oblique;
+  cursor: pointer;
+}
+
+.ListAction{
+  display: flex;
+  align-items: left;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 3px;
+}
+
+.ListAction button{
+  cursor: pointer;
+  background-color:transparent;
+  border-style: none;
+  margin-bottom: 4px;
+  margin-right: 10px;
+}
+
+.completedTask-Section{
+  color: rgb(239, 236, 236);
+}
+
+.markedTask-section{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.markedTask-section button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 100%;
+  font-size: 17px;  
+}
+
+.marked-text{
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+.Thrash-icon{
+  border: solid 2px red;
+  font-size: 19px;
+  margin-left: 60px;
+}
+
+.charHandling{
+   display: flex;
+   justify-content: space-around;
+   color: red;
+   width: 40%;
+   margin-left: 80px;
+   align-items: center;
+   font-size: 12px;
+}
+
+.toDoList-Container{
+  position: relative;
+ /*  border: 2px solid red; */
+}
+
+
+.calendarDate{
+  color: rgb(23, 230, 85);
+  font-size: 12px;
+  border-radius: 2em;
+  padding: 2px 10px 2px 10px;
+  width: 100%; 
+  margin-left: 60px;
+  cursor: pointer;
+}
